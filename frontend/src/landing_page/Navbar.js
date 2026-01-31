@@ -32,9 +32,9 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-              <Link className="nav-link" to="/signup">
+              <a className="nav-link" href="http://localhost:3001">
                 Signup
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">

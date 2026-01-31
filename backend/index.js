@@ -114,7 +114,7 @@ app.post("/newOrder", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log("App started!");
   mongoose.connect(uri);
   console.log("DB started!");
