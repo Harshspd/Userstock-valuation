@@ -6,7 +6,7 @@ const Orders = () => {
 
   useEffect(() => {
     // Fetch all orders from backend
-    axios.get("http://localhost:3002/allOrders")
+    axios.get("https://userstock-valuation-1.onrender.com")
       .then((res) => {
         setAllOrders(res.data);
       })
