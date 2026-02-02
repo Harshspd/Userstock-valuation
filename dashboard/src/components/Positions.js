@@ -6,7 +6,7 @@ const Positions = () => {
 
   useEffect(() => {
     // Fetch positions data from your backend
-    axios.get("https://userstock-valuation-1.onrender.com")
+    axios.get("https://userstock-valuation-1.onrender.com/allPositions")
       .then((res) => {
         setAllPositions(res.data);
       })
